@@ -18,7 +18,7 @@ namespace TesteGIT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Teste...");
+            MessageBox.Show("Teste..." + textBox1.Text);
         }
     }
 }
